@@ -24,7 +24,7 @@ public class Employee {
 	}
 	
 	
-	public double calculateSalary() {
+	public double calculateSalary(double basicSalary) {
 		double salary;
 		salary = basicSalary + (basicSalary* specialAllowlance/100) + (basicSalary*hra/100);
 		return salary;
