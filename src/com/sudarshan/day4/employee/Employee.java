@@ -1,6 +1,6 @@
 package com.sudarshan.day4.employee;
 
-public class Employee {
+public abstract class Employee {
 	/*
 	 * Employee Id, Employee name, HRA, PF, PT, Basic Salary, Gross Salary, medical,
 	 * net salary
@@ -18,7 +18,6 @@ public class Employee {
 
 	public Employee() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Employee(long employeeId, String employeeName) {
